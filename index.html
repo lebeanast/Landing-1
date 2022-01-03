@@ -1,12 +1,30 @@
-!DOCTYPE html>
+<!DOCTYPE html>
+</html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"content="width=device-width, initial-scale=1.0">
-    <title>HTML5</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Введение в HTML5</title>       
 </head>
-<body>
+<body>        
  <div>
+     <table border="9" width="100%">
+         <tr>
+             <td>
+                 <img src="assets/logo-black.png"
+                 srcset="assets/logo-black.png@2x.png 2x,
+                 assets/logo-black@4x.png 4x"
+                  alt="логотип Лерн Апп">
+             </td>
+             <td align="right">December 2021
+             </td>
+         </tr>
+     </table>
+     <img src="assets/human.png"
+     srcset="asset/human@2x.png 2x,
+     assets/human@4x.png 4x"
+      alt="человек развел руки">
      <h1>CHOOSE FLUTTER TO CHOOSE BOTH</h1>
      <button>REGISTER</button>
  </div>
@@ -50,6 +68,52 @@
  </div>
  <div>
      <h2>WHO</h2>
+     <table border="9" class="table">
+         <caption align="left">Цены на флагманские модели Iphone и Xiaomi</caption>
+         <thead>
+             <tr>
+                 <th align="left" width="30%">
+                     Производитель
+                </th>
+                <th>
+                    Модель
+                </th>
+                <th>
+                    Цена
+                </th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <td align="left" rowspan="3"> Iphone</td>
+                 <td>12 Pro</td>
+                 <td>$999</td>
+             </tr>
+             <tr>
+                 <td>12</td>
+                 <td>$799</td>
+             </tr>
+             <tr>
+                 <td>12 mini</td>
+                 <td>$699</td>
+             </tr>
+             <tr>
+                 <td align="left" rowspan="2">Xiaomi</td>
+                 <td> MI 10</td>
+                 <td>$768</td>
+             </tr>
+             <tr>
+                 <td>Black Shark 3 128 Gb</td>
+                 <td>$529</td>
+             </tr>
+         </tbody>
+         <tfoot>
+             <tr>
+                 <td align="left" colspan="2">Средняя цена</td>
+                 <td>$758.8</td>
+             </tr>
+         </tfoot>
+     </table>
      <button>REGISTER</button>
  </div>
  <div>
@@ -79,4 +143,4 @@
      </p>
  </div>
 </body>    
-</html> 
+</html>
