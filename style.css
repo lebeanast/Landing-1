@@ -1,0 +1,31 @@
+*  {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#blok1 {
+    background:linear-gradient(0deg, rgba(255, 133, 22, 0.5),rgba(255, 133, 22, 0.5) );
+    color: #ffffff
+}
+h1 {
+    font-size: 56px;
+    font-family: "Open-Sans";
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 36px;
+    font-family: "Open-Sans";
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.paragraph {
+color:#000000
+}
+.twoparagraph {
+    color:#ffffff
+}
+
