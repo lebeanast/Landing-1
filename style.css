@@ -3,11 +3,16 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    font-size: 16px;
+    color:#4A4A4A
+}
 #blok1 {
     background:linear-gradient(0deg, rgba(255, 133, 22, 0.5),rgba(255, 133, 22, 0.5) );
     color: #ffffff
 }
-h1 {
+
+#blok1 h1 {
     font-size: 56px;
     font-family: "Open-Sans";
     font-weight: 800;
