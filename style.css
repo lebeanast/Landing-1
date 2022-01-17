@@ -7,18 +7,7 @@ body{
     font-size: 16px;
     color:#4A4A4A
 }
-#blok1 {
-    background:linear-gradient(0deg, rgba(255, 133, 22, 0.5),rgba(255, 133, 22, 0.5) );
-    color: #ffffff
-}
 
-#blok1 h1 {
-    font-size: 56px;
-    font-family: "Open-Sans";
-    font-weight: 800;
-    text-align: center;
-    text-transform: uppercase;
-}
 h2 {
     font-size: 36px;
     font-family: "Open-Sans";
@@ -33,4 +22,73 @@ color:#000000
 .twoparagraph {
     color:#ffffff
 }
+.logo svg path {
+    fill: #ffffff;
 
+}
+#blok1 {
+    width: 100%;
+    height: 794px;
+    background: url(./assets/bg_orange.jpg) no-repeat;
+    background-size: cover; 
+}
+
+.wrap {
+    width: 100%;
+    max-width: 1240px;
+    padding-top: 53px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 72px;
+    margin: 0 auto;
+
+}
+.human {
+    margin: 21px 0 auto;
+    margin-top: 21px;
+    width: 1072px;
+    height: 669px;
+    background-image: url(./assets/human.png);
+    padding-top: 250px;
+}
+.title {
+    padding-left: 43px
+}
+
+.CHOOSE {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: 0.845em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+h1 {
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 154px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.FLUTTER {
+    margin-top: -33px
+}
+.BOTH {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    margin-top: -30px;
+    text-align: center;
+    letter-spacing: 0.37em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
