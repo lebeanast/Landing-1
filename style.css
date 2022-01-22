@@ -12,7 +12,7 @@ body {
 
 .block1,.block5 {
     color: #fff;
-    background-color: linear-gradient(0deg,rgba(255,133,22,.5),rgba(255,133,22,.5));
+    background-color: linear-gradient(0deg,rgba(255,132,22,.5),rgba(255,132,22,.5));
     background-image: url(./assets/bg_orange.jpg);
     background-repeat: no-repeat;
     background-size: cover
